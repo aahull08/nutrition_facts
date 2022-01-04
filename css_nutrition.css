@@ -1,0 +1,120 @@
+html {
+  font-size: 24px;
+  font-family: Helvetica;
+}
+
+body {
+  border: 3px solid black;
+  width: 500px;
+  padding: 7px;
+}
+
+header h1 {
+  font-family: Franklin Gothic Heavy;
+  width: 500px;
+  margin: 0;
+  font-size: 50px;
+}
+
+header p {
+  font-family: Helvetica Black;
+  margin: 0;
+}
+
+header table {
+  border-top: 20px solid black;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+header th {
+  text-align: left;
+}
+
+header td {
+  text-align: right;
+  border-top: 1px solid black;
+  padding: 0;
+}
+
+header [scope="col"] {
+  padding: 10px 0;
+}
+
+header [scope="row"] {
+  border-top: 1px solid black;
+}
+
+main th, td {
+  width: 10px;
+}
+
+main {
+  border-top: 10px solid black;
+}
+
+main table{
+  border-collapse:  collapse;
+  width: 100%;
+}
+
+main th {
+  border-top: 1px solid black;
+  padding: 0;
+}
+
+main td{
+  text-align: right;
+  border-top: 1px solid black;
+}
+
+main [scope="row"] {
+  border-bottom: 0;
+  text-align: left;
+  font-weight: 400;
+}
+
+main [scope="col"] {
+  text-align: right;
+  padding-top: 10px;
+  border-top: 0;
+}
+
+main .tab {
+  border-top: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+main tfoot{
+  border-top: 15px solid black;
+}
+
+footer {
+  font-size: 18px;
+}
+
+footer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+footer th {
+  border-bottom: 1px solid black;
+  text-align: left;
+}
+
+footer ul {
+  padding: 18px 7px;
+  margin: 0;
+  border-top: 1px solid black;
+}
+
+footer li::marker {
+  content: "*";
+}
+
+footer li {
+  padding-left: 4px;
+}
